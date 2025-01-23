@@ -6,8 +6,8 @@ import SellingItem from "./components/gymwebpage/htmlComponent/SellingItem.js";
 const App = () => {
   return (
     <>
-    {/* basename="/risponsive-gym-front-web" */}
-      <BrowserRouter >
+    
+      <BrowserRouter basename="/risponsive-gym-front-web">
         <Routes>
           <Route index element={<Navebaar />} />
           <Route path="join" element={<Loginform />} />
@@ -19,3 +19,4 @@ const App = () => {
 };
 
 export default App;
+
