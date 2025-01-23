@@ -1,0 +1,60 @@
+.soffer-m-div {
+    background-color: hsl(0, 0%, 25%);
+    ;
+    display: flex;
+    color: white;
+
+    .soffer-second-div {
+        .soffer-header {
+            margin: 220px 10px 10px 50px;
+            font-size: 35px;
+            font-weight: 800;
+        }
+
+        .soffer-header span {
+            color: yellow;
+        }
+
+        .soffer-disc {
+            font-size: 20px;
+            font-weight: 600;
+            display: grid;
+            margin: 50px 75px 10px 50px;
+
+            .so-button {
+                text-align: center;
+                color: yellow;
+                margin: 40px 250px 0px;
+                font-size: 15px;
+                font-weight: 750;
+                width: 160px;
+                height: 30px;
+                text-decoration: none;
+            }
+
+            .so-button:Hover {
+                color: #ffc107;
+                border-bottom: 0.1rem solid #ffc107;
+                padding-bottom: 0.5rem;
+            }
+        }
+    }
+
+    .soffer-img-div {
+        .soffer-img {
+            margin-top: 80px;
+            width: 700px;
+            height: 550px;
+        }
+    }
+}
+
+@media(max-width: 1498px) {
+
+    .soffer-m-div {
+        display: flex;
+        flex-direction: column;
+        /* Vertically stack images */
+        align-items: center;
+    }
+}

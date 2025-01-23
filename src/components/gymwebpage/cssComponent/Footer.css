@@ -1,0 +1,120 @@
+.footer-section-f {
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+    .footer-f {
+        color: white;
+
+        .footer-hading {
+            font-weight: 800;
+
+            span {
+                color: yellow;
+            }
+        }
+
+        .footer-paragraph {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .footer-all-icon {
+            column-gap: 40px;
+            font-size: 25px;
+            font-weight: 800;
+
+            .footer-icon {
+                a {
+                    color: white;
+                }
+
+                a:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .footer-s {
+        .footer-hading {
+            font-weight: 800;
+        }
+
+        .footer-about {
+            display: grid;
+            gap: 20px;
+            color: white;
+
+            .footer-icon {
+                text-decoration: none;
+
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: white;
+                }
+
+                a:hover {
+                    color: black;
+                    border: 2px solid white;
+                    border-radius: 10px;
+                    background-color: yellow;
+                }
+            }
+        }
+    }
+
+    .footer-t {
+        color: white;
+
+        .footer-hading {
+            font-weight: 800;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .input {
+            input {
+                padding: 12px 3px 10px 150px;
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+        span {
+            font-size: 30px;
+            margin-top: 30px;
+            margin-left: 2px;
+        }
+    }
+}
+
+.footer-last {
+    text-align: center;
+
+    .footer-hr {
+        margin-left: 200px;
+        width: 1300px;
+    }
+
+    .footer-discp {
+        color: white;
+        height: 100px;
+        margin-top: 50px;
+        font-weight: 800;
+    }
+}
+
+@media(max-width: 778px) {
+    .footer-section-f {
+        text-align: center;
+        display: grid;
+        gap: 60px;
+    }
+}
