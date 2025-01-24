@@ -9,8 +9,8 @@ import "../cssComponent/OurCourses.css";
 const OurCourses = () => {
   return (
     <>
-      <div class="section-course" id="courses">
-        <div class="course-box">
+      <div className="section-course" id="courses">
+        <div className="course-box">
           <header className="course-header">
             <h2 className="corsees-heading">
               Our <span>C</span>ourses
@@ -33,77 +33,77 @@ const OurCourses = () => {
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Ratione culpa
                   </p>
-                  <a href="">Read More →</a>
+                  <a href="#a">Read More →</a>
                 </div>
               </div>
               <div className="course-title1">Body Building</div>
               <img src={cc} alt="" width="550" height="550" />
             </div>
 
-            <div class="first-course-img">
+            <div className="first-course-img">
               <div className="course-text">
-                <div class="text">
+                <div className="text">
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Ratione culpa
                   </p>
-                  <a href="">Read More →</a>
+                  <a href="#a">Read More →</a>
                 </div>
               </div>
               <div className="course-title1">Cross Fit</div>
               <img src={cb} alt="" width="550" height="550" />
             </div>
 
-            <div class="first-course-img">
+            <div className="first-course-img">
               <div className="course-text">
-                <div class="text">
+                <div className="text">
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Ratione culpa
                   </p>
-                  <a href="">Read More →</a>
+                  <a href="#a">Read More →</a>
                 </div>
               </div>
               <div className="course-title1">Gymnastic</div>
               <img src={ce} alt="" width="550" height="550" />
             </div>
 
-            <div class="first-course-img">
+            <div className="first-course-img">
               <div className="course-text">
-                <div class="text">
+                <div className="text">
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Ratione culpa
                   </p>
-                  <a href="">Read More →</a>
+                  <a href="#a">Read More →</a>
                 </div>
               </div>
               <div className="course-title1">Fitness</div>
               <img src={cf} alt="" width="550" height="550" />
             </div>
 
-            <div class="first-course-img">
+            <div className="first-course-img">
               <div className="course-text">
-                <div class="text">
+                <div className="text">
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Ratione culpa
                   </p>
-                  <a href="">Read More →</a>
+                  <a href="#a">Read More →</a>
                 </div>
               </div>
               <div className="course-title1">TRX</div>
               <img src={cd} alt="" width="550" height="550" />
             </div>
 
-            <div class="first-course-img">
+            <div className="first-course-img">
               <div className="course-text">
-                <div class="text">
+                <div className="text">
                   <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Ratione culpa
                   </p>
-                  <a href="">Read More →</a>
+                  <a href="#a">Read More →</a>
                 </div>
               </div>
               <div className="course-title1">Boxing</div>
@@ -112,7 +112,7 @@ const OurCourses = () => {
           </article>
         </div>
       </div>
-      <div class="oc-hr">
+      <div className="oc-hr">
         <hr />
       </div>
     </>

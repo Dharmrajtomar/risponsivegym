@@ -34,15 +34,14 @@ const Loginform = () => {
                 placeholder="enter E-mail"
                 color=""
               />
-              <input
-                type="password"
+              <input type="password"
                 name=""
                 id=""
                 placeholder="enter password"
               />
               <input type="submit" />
               <div className="form-forgot">
-                Forget <a href=""> username /</a> <a href="">password</a>
+                Forget <a href="#a"> username /</a> <a href="#a">password</a>
               </div>
               <div className="form-new">
                 <p>

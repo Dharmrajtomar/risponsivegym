@@ -4,7 +4,7 @@ import { RiLoginCircleLine } from "react-icons/ri";
 import { SiGnuprivacyguard } from "react-icons/si";
 import { FaSearch } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SidePage from "./SidePage";
 const Navebaar = () => {
   const navbarRef = useRef();
@@ -18,14 +18,14 @@ const Navebaar = () => {
           M<span>Fitness</span>
         </h3>
         <div className="header-a" ref={navbarRef}>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
+          <a href="home">Home</a>
+          <a href="about">About</a>
           <a href="#courses">Courses</a>
           <a href="#trainers">Trainers</a>
-          <a href="#contact">Contact</a>
+          <a href="contact">Contact</a>
         </div>
         <div className="icons">
-          <a href="#">
+          <a href="#a">
             <FaSearch size="2rem" />
           </a>
           <Link to="/join">
@@ -34,13 +34,13 @@ const Navebaar = () => {
           <Link to="/join">
             <SiGnuprivacyguard size="2rem" />
           </Link>
-          <a href="#">
+          <a href="#a">
             <IoMenu size="3rem" id="menu-btn" onClick={navbarhandler} />
           </a>
         </div>
       </section>
       <section className="section-hero" id="home">
-        <div class="container-hero-box">
+        <div className="container-hero-box">
           <h3>A place for your fitness goals</h3>
           <p className="description">
             We offer Functional Training, Plyometric Boxes, Aerobics classes,

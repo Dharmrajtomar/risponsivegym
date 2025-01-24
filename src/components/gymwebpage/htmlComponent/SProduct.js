@@ -1,6 +1,7 @@
 import React from "react";
 import "../cssComponent/SProduct.css";
 import { productitem } from "./ImdData";
+import { FaCartArrowDown, FaEye, FaHeart } from "react-icons/fa";
 const SProduct = () => {
   return (
     <>
@@ -12,9 +13,9 @@ const SProduct = () => {
           {productitem.map((item, index) => (
             <div className="box">
               <div className="icons">
-                <a href="" className="fas fa-shopping-cart"></a>
-                <a href="" className="fas fa-heart"></a>
-                <a href="" className="fas fa-eye"></a>
+                <a href="#a" className="fas fa-shopping-cart"><FaCartArrowDown /></a>
+                <a href="#a" className="fas fa-heart"><FaHeart /></a>
+                <a href="#a" className="fas fa-eye"><FaEye /></a>
               </div>
               <div className="image">
                 <img src={item.img} alt="" />

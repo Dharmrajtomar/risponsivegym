@@ -1,10 +1,11 @@
 import React from "react";
-import { MdClose } from "react-icons/md";
+
+
 import "../cssComponent/GymReadmore.css";
 const GymReadmore = ({ setreadmore }) => {
   return (
     <>
-      <div class="readmore-about">
+      <div className="readmore-about">
         {/* <header className="header-contaner-g">
           <div className="logo">
             <span>M</span>

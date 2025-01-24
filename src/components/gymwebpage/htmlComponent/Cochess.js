@@ -8,14 +8,14 @@ import "../cssComponent/Cochess.css";
 const Cochess = () => {
   return (
     <>
-      <div class="cochess-main" id="trainers">
-        <div class="coches-about">
-          <div class="cochess-header">
+      <div className="cochess-main" id="trainers">
+        <div className="coches-about">
+          <div className="cochess-header">
             <h3>
               OUR <span>FITNESS</span> COCHESS
             </h3>
           </div>
-          <div class="coches-disc">
+          <div className="coches-disc">
             <p>
               {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
@@ -29,26 +29,26 @@ const Cochess = () => {
               voluptatibus quas deserunt.
             </p>
           </div>
-          <div class="coches-all-img">
-            <div class="cochess-img-sec">
-              <div class="coches-corse-title">
+          <div className="coches-all-img">
+            <div className="cochess-img-sec">
+              <div className="coches-corse-title">
                 <p className="coches-name">Marn buliyank</p>
                 <p className="coches-disp">fitnescohes</p>
               </div>
-              <div class="coches-icon-and-img">
-                <div class="coches-img-icon">
-                  <div class="c-facebook">
-                    <div class="c-c-f">
+              <div className="coches-icon-and-img">
+                <div className="coches-img-icon">
+                  <div className="c-facebook">
+                    <div className="c-c-f">
                       <FaFacebook />
                     </div>
                   </div>
-                  <div class="c-facebook">
+                  <div className="c-facebook">
                     <FaWhatsapp />
                   </div>
-                  <div class="c-facebook">
+                  <div className="c-facebook">
                     <FaInstagram />
                   </div>
-                  <div class="c-facebook">
+                  <div className="c-facebook">
                     <FaXTwitter />
                   </div>
                 </div>
@@ -56,50 +56,50 @@ const Cochess = () => {
               </div>
             </div>
 
-            <div class="cochess-img-sec">
-              <div class="coches-corse-title">
+            <div className="cochess-img-sec">
+              <div className="coches-corse-title">
                 <p className="coches-name">mr. boxer</p>
                 <p className="coches-disp">boxer</p>
               </div>
-              <div class="coches-icon-and-img">
-                <div class="coches-img-icon">
-                  <div class="c-facebook">
-                    <div class="c-c-f">
+              <div className="coches-icon-and-img">
+                <div className="coches-img-icon">
+                  <div className="c-facebook">
+                    <div className="c-c-f">
                       <FaFacebook />
                     </div>
                   </div>
-                  <div class="c-facebook">
+                  <div className="c-facebook">
                     <FaWhatsapp />
                   </div>
-                  <div class="c-facebook">
+                  <div className="c-facebook">
                     <FaInstagram />
                   </div>
-                  <div class="c-facebook">
+                  <div className="c-facebook">
                     <FaXTwitter />
                   </div>
                 </div>
                 <img src={caa} alt="" />
               </div>
             </div>
-            <div class="cochess-img-sec">
-              <div class="coches-corse-title">
+            <div className="cochess-img-sec">
+              <div className="coches-corse-title">
                 <p className="coches-name">miss. rubeena</p>
                 <p className="coches-disp">strechesh</p>
               </div>
-              <div class="coches-icon-and-img">
-                <div class="coches-img-icon">
-                  <div class="c-facebook">
-                    <div class="c-c-f">
+              <div className="coches-icon-and-img">
+                <div className="coches-img-icon">
+                  <div className="c-facebook">
+                    <div className="c-c-f">
                       <FaFacebook />
                     </div>
                   </div>
-                  <div class="c-facebook">
+                  <div className="c-facebook">
                     <FaWhatsapp />
                   </div>
-                  <div class="c-facebook">
+                  <div className="c-facebook">
                     <FaInstagram />
                   </div>
-                  <div class="c-facebook">
+                  <div className="c-facebook">
                     <FaXTwitter />
                   </div>
                 </div>

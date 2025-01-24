@@ -11,48 +11,48 @@ import "../cssComponent/Footer.css";
 const Footer = () => {
   return (
     <>
-      <div class="footer-section-f" id="contact">
-        <div class="footer-f">
+      <div className="footer-section-f" id="contact">
+        <div className="footer-f">
           <h1 className="footer-hading">
             <span>M</span>Fitness
           </h1>
           <p className="footer-paragraph">
             contect-9399206067 <br /> Email-dharmrajtomar43@gmail.com
           </p>
-          <div class="footer-all-icon">
+          <div className="footer-all-icon">
             <p className="footer-icon">
               {" "}
-              <a href="">
+              <a href="#a">
                 <FaWhatsapp />
               </a>{" "}
             </p>
             <p className="footer-icon">
               {" "}
-              <a href="">
+              <a href="#a">
                 <FaFacebook />{" "}
               </a>{" "}
             </p>
             <p className="footer-icon">
               {" "}
-              <a href="">
+              <a href="#a">
                 <FaInstagram />{" "}
               </a>{" "}
             </p>
             <p className="footer-icon">
               {" "}
-              <a href="">
+              <a href="#a">
                 <FaXTwitter />
               </a>{" "}
             </p>
           </div>
         </div>
-        <div class="footer-s">
+        <div className="footer-s">
           <h1 className="footer-hading"> Quick Links</h1>
-          <div class="footer-about">
+          <div className="footer-about">
             <p className="footer-icon">
               {" "}
               <FaLongArrowAltRight />{" "}
-              <a href="" className="hom">
+              <a href="#a" className="hom">
                 {" "}
                 Home
               </a>{" "}
@@ -60,25 +60,25 @@ const Footer = () => {
 
             <p className="footer-icon">
               {" "}
-              <FaLongArrowAltRight /> <a href="">About</a>{" "}
+              <FaLongArrowAltRight /> <a href="#a">About</a>{" "}
             </p>
 
             <p className="footer-icon">
               {" "}
-              <FaLongArrowAltRight /> <a href=""> Courses</a>{" "}
+              <FaLongArrowAltRight /> <a href="#a"> Courses</a>{" "}
             </p>
 
             <p className="footer-icon">
               {" "}
-              <FaLongArrowAltRight /> <a href=""> Trainers</a>{" "}
+              <FaLongArrowAltRight /> <a href="#a"> Trainers</a>{" "}
             </p>
             <p className="footer-icon">
               {" "}
-              <FaLongArrowAltRight /> <a href=""> Contect</a>{" "}
+              <FaLongArrowAltRight /> <a href="#a"> Contect</a>{" "}
             </p>
           </div>
         </div>
-        <div class="footer-t">
+        <div className="footer-t">
           <h1 className="footer-hading"> News Letter</h1>
           <p>If you want to new apdate to send your email </p>
           <p className="input">
@@ -90,12 +90,12 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div class="footer-last">
-        <div class="footer-hr">
+      <div className="footer-last">
+        <div className="footer-hr">
           <hr />
         </div>
 
-        <div class="footer-discp">APP - PRINCE TOMAR</div>
+        <div className="footer-discp">APP - PRINCE TOMAR</div>
       </div>
     </>
   );
